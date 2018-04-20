@@ -1,4 +1,4 @@
 # Pull base image
 From tomcat:8-jre8
-EXPOSE 8081
+EXPOSE 8080
 
