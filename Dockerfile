@@ -1,3 +1,4 @@
-FROM openjdk:8-jre-alpine
-RUN mkdir /usr/local/tomcat
+# Pull base image
+From tomcat:8-jre8
+EXPOSE 8081
 
