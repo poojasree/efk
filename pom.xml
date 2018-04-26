@@ -35,6 +35,10 @@
          <url>http://52.173.28.7:8081/repository/maven-releases/</url>
                </repository>
   </distributionManagement>
+	<properties>
+<maven.compiler.source>6</maven.compiler.source>
+<maven.compiler.target>1.6</maven.compiler.target>
+ </properties>
 
   <build>
     <finalName>InformationCentre</finalName>
