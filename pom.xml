@@ -33,6 +33,9 @@
                <repository>
          <id>nexus</id>
          <url>http://52.173.28.7:8081/repository/maven-releases/</url>
+		       <username>build_user</username>
+
+<password>build_pwd</password>
                </repository>
   </distributionManagement>
 	<properties>
