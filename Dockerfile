@@ -125,6 +125,6 @@ RUN set -e \
 		exit 1; \
 	fi
 COPY tomcat-users.xml $CATALINA_HOME/conf/
-EXPOSE 8090
+EXPOSE 9090
 ADD ./target/InformationCentre.war usr/local/tomcat/webapps
 CMD ["catalina.sh", "run"]
