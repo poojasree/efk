@@ -126,5 +126,5 @@ RUN set -e \
 	fi
 
 EXPOSE 8090
-ADD ./target/InformationCentre.war usr/local/webapps
+ADD ./target/InformationCentre.war usr/local/tomcat/webapps
 CMD ["catalina.sh", "run"]
