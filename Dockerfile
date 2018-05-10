@@ -124,7 +124,7 @@ RUN set -e \
 		echo >&2 "$nativeLines"; \
 		exit 1; \
 	fi
-
+COPY tomcat-users.xml $CATALINA_HOME/conf/
 EXPOSE 8090
 ADD ./target/InformationCentre.war usr/local/tomcat/webapps
 CMD ["catalina.sh", "run"]
