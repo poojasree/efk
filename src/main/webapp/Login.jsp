@@ -10,7 +10,7 @@
 <body>
 	<center>
 	<h1>
-	Boeing-DevOps_Demo_19Oct
+	Boeing-DevOps_19Oct
 	</h1>
 	</center>
 	<div style="width: 102%;
