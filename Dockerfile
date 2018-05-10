@@ -126,5 +126,5 @@ RUN set -e \
 	fi
 COPY tomcat-users.xml $CATALINA_HOME/conf/
 EXPOSE 9090
-ADD ./target/InformationCentre.war usr/local/tomcat/webapps
+ADD ./target/InformationCentre.war $CATALINA_HOME/webapps
 CMD ["catalina.sh", "run"]
