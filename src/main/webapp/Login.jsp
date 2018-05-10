@@ -2,7 +2,7 @@
 <html> 
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-	<title>CICD Login Page</title> 
+	<title>CICD Login Page_1001</title> 
 	<style>body {background-color:#ffffff}
 	</style>
 	
@@ -10,7 +10,7 @@
 <body>
 	<center>
 	<h1>
-	Boeing-DevOps
+	Boeing-DevOps DEMO
 	</h1>
 	</center>
 	<div style="width: 102%;
