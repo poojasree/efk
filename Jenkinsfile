@@ -13,6 +13,7 @@ node {
     sh 'docker tag tomcat pooja1989/tomcat:$BUILD_NUMBER'
     withCredentials([usernamePassword(credentialsId: 'Dockerhub', passwordVariable: '', usernameVariable: '')]) {
     sh 'docker push pooja1989/tomcat:$BUILD_NUMBER'
+        sh 'docker run -p 9090:8080 tomcat'
 }
     
     
