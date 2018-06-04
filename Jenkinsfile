@@ -24,7 +24,7 @@ pipeline {
          }
         
 		
-         stage('Tomcat') {
+         stage('Tomcat Deployment') {
             agent any
             steps {
                 sh 'docker build -t tomcat .'
