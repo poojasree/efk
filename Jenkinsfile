@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+	agent {docker { image 'pooja1989/maven:v1.1' }}
     stages {
          stage('Build') {
 		              
