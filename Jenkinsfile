@@ -2,14 +2,12 @@ pipeline {
     agent none
     stages {
          stage('Build') {
-		   agent {
-                docker { image 'pooja1989/maven_sonar' }
-           }
-            
+		              
             steps {
-			   
-                git credentialsId: 'GitHub', url: 'https://github.com/poojasree/InformationCentre.git'
+		withDockerContainer('pooja1989/maven_sonar') {
+                 git credentialsId: 'GitHub', url: 'https://github.com/poojasree/InformationCentre.git'
                 sh 'mvn clean install sonar:sonar'
+                }               
             }
         } 
          
