@@ -4,7 +4,7 @@
   <groupId>POC3TeamC</groupId>
   <artifactId>InformationCentre</artifactId>
   <packaging>war</packaging>
-  <version>$BUILD_NUMBER</version>
+  <version>1.0</version>
   <name>InformationCentre</name>
   <url>http://maven.apache.org</url> 
   <dependencies>
