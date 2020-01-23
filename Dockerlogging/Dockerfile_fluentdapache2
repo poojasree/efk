@@ -27,6 +27,7 @@ ADD td-agent.conf /etc/td-agent
 #RUN /usr/sbin/td-agent -d /var/run/td-agent/td-agent.pid
 RUN chmod 777 /var/log/apache2/access.log
 #RUN chown td-agent:www-data /var/log/apache2/access.log
+ADD port.conf /etc/apache2
 RUN service apache2 restart
 RUN /usr/sbin/apache2 &
 EXPOSE 80
